@@ -85,10 +85,50 @@ public class ControlFlowExercises {
 //        Ask if the user wants to continue.
 //        Assume that the user will enter valid data.
 //        Only continue if the user agrees to.
+//        boolean wantsToContinue;
+//        Scanner scanner = new Scanner(System.in);
+//        do {
+//
+//            System.out.print("What number would you like to go up to? ");
+//            int userInput = scanner.nextInt();
+//            System.out.println("You entered: --> \"" + userInput + "\" <--");
+//            System.out.println("| integer | square | cube |");
+//            for (int i = 1; i <= userInput; i++) {
+//                if (i < userInput) {
+//                    System.out.println("     " + i + "        " + i*i + "     " + i*i*i);
+////                    System.out.println(i * i);
+////                    System.out.println(i * i * i);
+//                } else if (i == userInput) {
+//                    System.out.println("     " + userInput + "        " + userInput*userInput + "     " + userInput*userInput*userInput);
+////                    System.out.println(userInput * userInput);
+////                    System.out.println(userInput * userInput * userInput);
+//                } else {
+//                    System.out.println("Try it again!");
+//
+//                }
+//            }
+//            System.out.println("Thanks for playing, do you want to go again? Type y to continue.");
+//            String UserResponse = scanner.nextLine();
+//            wantsToContinue = UserResponse.equalsIgnoreCase("y");
+//        }while(wantsToContinue);
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter something: ");
-        int userInput = scanner.nextInt();
+//        Prompt the user for a numerical grade from 0 to 100.
+//        Display the corresponding letter grade.
+//                Prompt the user to continue.
+//        Assume that the user will enter valid integers for the grades.
+//        The application should only continue if the user agrees to.
+//        Grade Ranges:
+//
+//        A : 100 - 88
+//        B : 87 - 80
+//        C : 79 - 67
+//        D : 66 - 60
+//        F : 59 - 0
+//        Bonus
+//
+//        Edit your grade ranges to include pluses and minuses (ex: 99-100 = A+).
+
+
 
     }
 }
