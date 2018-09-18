@@ -79,7 +79,7 @@ public class ControlFlowExercises {
 //                System.out.println(i);
 //            }
 //        }
-
+//-------------------------------------------Integers, Squares, and Cubes--------------------------------------------------------------//
 //        Prompt the user to enter an integer.
 //        Display a table of squares and cubes from 1 to the value entered.
 //        Ask if the user wants to continue.
@@ -127,8 +127,29 @@ public class ControlFlowExercises {
 //        Bonus
 //
 //        Edit your grade ranges to include pluses and minuses (ex: 99-100 = A+).
+        Scanner scanner = new Scanner(System.in);
+        int input;
+        System.out.println("Enter a numerical grade from 0 to 100: ");
 
-
-
+        while ((input = scanner.nextInt()) != 0) {
+            if (input >= 88) {
+                System.out.println("A");
+            } else if (input >= 80 && input <= 87) {
+                System.out.println("B");
+            } else if (input <= 79 && input >= 67) {
+                System.out.println("C");
+            } else if (input >= 60 && input <= 66) {
+                System.out.println("D");
+            } else if (input >= 0 && input <= 59) {
+                System.out.println("F");
+            }
+            System.out.println("Would you like to quit? Enter y or n: ");
+            String response = scanner.next();
+            boolean confirmation = response.equals("y");
+            if (confirmation) {
+                break;
+            }
+            System.out.println("Enter a numerical grade from 0 to 100: ");
+        }
     }
 }
