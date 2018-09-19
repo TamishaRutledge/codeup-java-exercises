@@ -4,7 +4,7 @@ public class Bob {
     public static void main(String[] args) {
 //        String teenagerName = "Bob";
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ask Bob a question.");
+        System.out.println("Say something to Bob...remember, punctuation matters.");
         String userInput = scanner.nextLine();
         if (userInput.endsWith("?")) {
             System.out.println("Sure");
