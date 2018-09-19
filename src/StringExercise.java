@@ -4,9 +4,6 @@ public class StringExercise {
 //        that contains the desired output and print it out to the console.
 //
 //                Do this with only one string variable and one print statement.
-//
-//        I can do backslashes \, double backslashes \\,
-//        and the amazing triple backslash \\\!
 
         //        We don't need no education
 //        We don't need no thought control
@@ -21,12 +18,15 @@ public class StringExercise {
 //        System.out.println(message);
 //
 //       In windows, the main drive is usually C:\
-        String message = "In windows, the main drive is usually C:\\ ";
+//        String message = "In windows, the main drive is usually C:\\ ";
 //----------------------just double slashes no quotes----------------------------------//
+//        System.out.println(message);
+
+//        I can do backslashes \, double backslashes \\,
+//        and the amazing triple backslash \\\!
+
+        String message = "I can do backslashes \\, double backslashes \\\\, and the amazing triple backslash \\\\\\!";
         System.out.println(message);
-
-
-
 
 
 
