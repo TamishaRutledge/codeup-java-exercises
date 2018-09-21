@@ -2,28 +2,36 @@ import java.util.Scanner;
 
 public class Person {
 
-    private String Name;
+    private String Name = "new new";
 
-    // returns the person's name
+    public Person () {
+        System.out.println("What is your name?");
+    }
+
+    // this is a getter to get the person's name
     public String getName(){
         return Name;
     }
 
-    // changes the name property to the passed value
-    public void setName(String name);{
+    // this is a setter to get teh person's name
+    public void setName(String Name){
         System.out.println(Name);
     }
 
-    // prints a message to the console using the person's name
+    // put out a message with the name
     public void sayHello() {
         System.out.println("Hey how are you " + Name);
     }
 
-
     public static void main(String[] args) {
-        System.out.println("What is your name?");
-        Scanner scan = new Scanner(System.in);
-        Name n1 = new Name();
+        Scanner scanner = new Scanner(System.in);
+        Person me = new Person();
+        me.getName();
+        me.setName("John");
+        me.sayHello();
+
+
+
 
     }
 }
