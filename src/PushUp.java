@@ -12,5 +12,7 @@ public class PushUp {
         System.out.println("The defined input is: " + TestValue + " And that is a boolean value.");
         float FloatVar = 3.98F;
         System.out.println("The defined input is: " + FloatVar + " And that is a float value.");
+        int x = 5;
+        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
     }
 }
