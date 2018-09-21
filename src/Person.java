@@ -9,12 +9,14 @@ public class Person {
     }
 
     // this is a getter to get the person's name
+    //getters ask questions
     public String getName(){
         System.out.println(Name);
         return Name;
     }
 
     // this is a setter to get teh person's name
+    //setters are commands
     public void setName(String Name){
         System.out.println(Name);
     }
