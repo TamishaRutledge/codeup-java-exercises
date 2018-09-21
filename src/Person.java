@@ -2,14 +2,15 @@ import java.util.Scanner;
 
 public class Person {
 
-    private String Name = "new new";
+    private String Name;
 
-    public Person () {
-        System.out.println("What is your name?");
+    public Person (String Name) {
+        this.Name = Name;
     }
 
     // this is a getter to get the person's name
     public String getName(){
+        System.out.println(Name);
         return Name;
     }
 
@@ -24,13 +25,28 @@ public class Person {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        Person me = new Person();
+        Person me = new Person("Jim");
+
         me.getName();
-        me.setName("John");
+        me.setName("Jake");
         me.sayHello();
 
+//        Person person1 = new Person("John");
+//        Person person2 = new Person("John");
+//        System.out.println(person1.getName().equals(person2.getName()));
+//        System.out.println(person1 == person2);
+//
+//        Person person1 = new Person("John");
+//        Person person2 = person1;
+//        System.out.println(person1 == person2);
 
+        Person person1 = new Person("John");
+        Person person2 = person1;
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+        person2.setName("Jane");
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
 
 
     }
