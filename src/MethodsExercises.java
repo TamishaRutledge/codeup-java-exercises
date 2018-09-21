@@ -72,7 +72,8 @@ public class MethodsExercises {
         Modulus(10, 2);
 //-----------------PROBLEM 2--------------------------//
 
-        System.out.println(factorial(5));
+//        System.out.println(factorial(5));
+//        getInt(5);
 
     }
 
