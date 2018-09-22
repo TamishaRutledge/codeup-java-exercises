@@ -15,7 +15,7 @@ public class Input {
     public boolean yesNo(){
         System.out.println("Please input y or yes to continue");
         String userInput = getString();
-        return userInput.equalsIgnoreCase("y" || "yes")
+        return userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("yes");
 
     }
     public int getInt(int min, int max){
@@ -32,5 +32,6 @@ public class Input {
     public double getDouble(){
         return scan.nextDouble();
     }
+
 
 }
