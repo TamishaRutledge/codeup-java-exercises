@@ -14,7 +14,7 @@ public class Person {
         return Name;
     }
 
-    // this is a setter to get teh person's name
+    // this is a setter to get the person's name
     //setters are commands
     public void setName(String Name){
         System.out.println(Name);
