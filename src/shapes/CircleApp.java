@@ -19,13 +19,13 @@ public class CircleApp {
         System.out.print("And the circumference is: ");
         System.out.print(circle.getCircumference());
 
-        public boolean yesNo(){
-            System.out.println("Please input y or yes to continue");
-            Scanner scanner = new Scanner(System.in);
-            String userInput = scanner.next();
-            return userInput.equalsIgnoreCase("y") || userInput.equalsIgnoreCase("yes");
-
-        }
+//        public boolean yesNo(){
+//            System.out.println("Please input y or yes to continue");
+//            Scanner scanner = new Scanner(System.in);
+//            String userInput = scanner.next();
+//            return userInput.equalsIgnoreCase("y" || "yes");
+//
+//        }
 
 
     }
