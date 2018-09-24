@@ -11,7 +11,6 @@ public class Person {
     // this is a getter to get the person's name
     //getters ask questions
     public String getName(){
-        System.out.println(Name);
         return Name;
     }
 
