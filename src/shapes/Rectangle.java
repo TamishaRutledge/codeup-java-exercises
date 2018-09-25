@@ -5,23 +5,34 @@ public class Rectangle {
     protected int length;
     protected int width;
 
-//    Constructor  //
+//-------------------------------Constructor-------------------------------------------//
     public Rectangle(int length, int width){
         this.length = length;
         this.width = width;
     }
 
-//    get area and perimeter methods that return values  //
-    public static int getArea(){
-       return length*width;
+//-------------------------------Getters and Setters-----------------------------------//
+    public int getLength() {
+        return this.length;
+    }
+    public int getWidth(){
+        return this.width;
     }
 
-    public static int getPerimeter(){
-        return 2*length + 2*width;
+    public void setLength(int length){
+        this.length = length;
+    }
+    public void setWidth(int width){
+        this.width = width;
+    }
+//--------------------------get area and perimeter methods that return values-------------------//
+    public int getArea(){
+       return this.length * this.width;
     }
 
-//    Shapes extends Rectangle  //
-    public class Square extends Rectangle{
+    public int getPerimeter(){
+        return 2*this.length + 2*this.width;
+    }
 
-}
+
 }
