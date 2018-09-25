@@ -12,5 +12,15 @@ public class Square extends Rectangle{
         super(side, side);
 
     }
+//--------Overriding rectangle methods----------//
+    public int getArea(){
+        //System.out.println("The Area of the Square is: " + this.length * this.length);
+        return this.length * this.length;
+    }
+
+    public int getPerimeter(){
+        //System.out.println("The Perimeter of the Square is: " + 4 * this.side);
+        return 4 * this.length;
+    }
 
 }
