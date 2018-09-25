@@ -1,13 +1,17 @@
 package shapes;
 
 //    Shapes extends Rectangle  //
-public class Square extends Shape.Quadrilateral {
+public class Square extends Quadrilateral {
 
-protected void setLength(int length){
+    public Square(int length, int width) {
+        super(length, width);
+    }
+
+    protected void setLength(int length){
     this.length = length;
 }
 
-protected void setWidth(int width){
+    protected void setWidth(int width){
     this.width = width;
 }
 
@@ -41,7 +45,7 @@ protected void setWidth(int width){
 //    public Square(int side){
 //        super(side, side);
 
-    }
+//    }
 //--------Overriding rectangle methods----------//
 //    public int getArea(){
 //        //System.out.println("The Area of the Square is: " + this.length * this.length);
