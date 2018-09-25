@@ -1,12 +1,22 @@
 public class PushUp {
 
-    public static void countDown(int num){
-        if (num <= 0){
+//    public static void countDown(int num){
+//        if (num <= 0){
+//            System.out.println("All Done!");
+//            return;
+//        } else{
+//            System.out.println(num);
+//            countDown(num - 1);
+//        }
+//    }
+
+    public static void countUp(int num){
+        if (num > 7){
             System.out.println("All Done!");
             return;
         } else{
             System.out.println(num);
-            countDown(num - 1);
+            countUp(num + 1);
         }
     }
 
@@ -25,6 +35,7 @@ public class PushUp {
 //        System.out.println("The defined input is: " + FloatVar + " And that is a float value.");
 //        int x = 5;
 //        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
-    countDown(8);
+//    countDown(8);
+    countUp(1);
     }
 }
