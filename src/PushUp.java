@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class PushUp {
 
 //    public static void countDown(int num){
@@ -10,15 +12,16 @@ public class PushUp {
 //        }
 //    }
 
-    public static void countUp(int num){
-        if (num > 7){
-            System.out.println("All Done!");
-            return;
-        } else{
-            System.out.println(num);
-            countUp(num + 1);
-        }
-    }
+//    public static void countUp(int num){
+//        if (num > 7){
+//            System.out.println("All Done!");
+//            return;
+//        } else{
+//            System.out.println(num);
+//            countUp(num + 1);
+//        }
+//    }
+
 
     public static void main(String[] args){
 //        char letter = 'A';
@@ -36,6 +39,6 @@ public class PushUp {
 //        int x = 5;
 //        System.out.println(x > 2 ? x < 4 ? 10 : 8 : 7);
 //    countDown(8);
-    countUp(1);
+//    countUp(1);
     }
 }
